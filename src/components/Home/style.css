@@ -1,0 +1,156 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #fff; 
+}
+
+.home-divs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+
+/* Text section styling */
+.home-div-one {
+    max-width: 50%;
+}
+
+.journey {
+    font-size: 3.5rem;
+    color: #5E3D21;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.our-app {
+    font-size: 1.25rem;
+    color: #006B3B; 
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.read-more-button, .contact-us-button {
+    padding: 12px 32px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.read-more-button {
+    background-color: #5E3D21;
+    color: #fff;
+    border: none;
+}
+
+.read-more-button:hover {
+    background-color: #4b2f18;
+}
+
+.contact-us-button {
+    background-color: #fff;
+    color: #5E3D21;
+    border: 2px solid #5E3D21;
+}
+
+.contact-us-button:hover {
+    background-color: #f2f2f2;
+}
+
+
+.contact-us-button:focus,
+.contact-us-button:active {
+    outline: none;
+}
+
+
+.home-div-two {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 1024px) {
+    .home {
+        padding: 40px;
+    }
+
+    .home-divs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-div-one {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .home-div-two {
+        margin-top: 30px;
+        max-width: 80%;
+    }
+
+    .journey {
+        font-size: 3rem;
+    }
+
+    .our-app {
+        font-size: 1.2rem;
+    }
+
+    .read-more-button, .contact-us-button {
+        font-size: 0.95rem;
+        align-items: center;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+    .home {
+        padding: 20px;
+    }
+
+    .home-div-one {
+        max-width: 100%;
+    }
+
+    .journey {
+        font-size: 2.5rem;
+    }
+
+    .our-app {
+        font-size: 1rem;
+    }
+
+    .home-div-two {
+        max-width: 100%;
+    }
+
+    .read-more-button, .contact-us-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .home-buttons{
+        padding-left: 28px;
+    }
+}
