@@ -67,6 +67,7 @@
   display: none;
 }
 
+
 @media (max-width: 700px) {
   .Navbar > .nav-items > a:hover {
     color: #fff;
