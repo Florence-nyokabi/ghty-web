@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
 
+
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="Navbar">
