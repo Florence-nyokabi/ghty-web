@@ -61,32 +61,6 @@
   width: 50%;
 }
 
-/* Button style for Contact Us */
-/* .contact-btn {
-  background-color: #0B2410;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1.2em;
-  font-family: 'Amiko', sans-serif;
-  transition: background-color 0.3s ease;
-  margin-left: 1.4em;
-  border: none;
-}
-
-.contact-btn:hover {
-  background-color: #2B8A3E;
-  text-decoration: none;
-}
-
-.contact-btn::before {
-  content: none;
-}
-
-.contact-btn:hover::before {
-  width: 0;
-} */
 
 /* Toggle for mobile menu */
 .Navbar > .nav-toggle {
